@@ -11,6 +11,8 @@ let tempD;
 var counter = "0";
 var temp1 = 0
 
+//Go! Get out of my code!
+
 onmousemove = function(e){
     mouseX = eval(e.clientX+"-30")
     mouseY = eval(e.clientY+"-30")
