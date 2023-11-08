@@ -41,3 +41,4 @@ function Alpha() {
         myWindow.document.write(err);
     }
 };
+// Created by me, Timothy P. Don't try to steal my work, please.
