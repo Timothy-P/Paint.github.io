@@ -17,7 +17,7 @@ onmousemove = function(e){
 }
 function Alpha() { 
     try {
-        if (temp1 == 0){
+        if (temp1 == 1){
         ColorRan = Math.floor(Math.random()*16777215).toString(16);
         $("#canvas1").append('<div id="dot'+counter+'" style="left:'+mouseX+'px;top:'+mouseY+'px; width:60px; height:60px;background-color:#'+ColorRan+';border-radius:100px;position:absolute;border-color:transparent"></div>');
         tempA = document.getElementById("dot"+counter).getAttribute("style")
